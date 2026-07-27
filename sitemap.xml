@@ -2,28 +2,36 @@
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-<url>
-<loc>https://lordehabcom-glitch.github.io/clinic-website-v2/</loc>
-</url>
+  <url>
+    <loc>https://lordehabcom-glitch.github.io/ehab-dental-clinic/</loc>
+  </url>
 
-<url>
-<loc>https://lordehabcom-glitch.github.io/clinic-website-v2/about.html</loc>
-</url>
+  <url>
+    <loc>https://lordehabcom-glitch.github.io/ehab-dental-clinic/about.html</loc>
+  </url>
 
-<url>
-<loc>https://lordehabcom-glitch.github.io/clinic-website-v2/services.html</loc>
-</url>
+  <url>
+    <loc>https://lordehabcom-glitch.github.io/ehab-dental-clinic/services.html</loc>
+  </url>
 
-<url>
-<loc>https://lordehabcom-glitch.github.io/clinic-website-v2/doctor.html</loc>
-</url>
+  <url>
+    <loc>https://lordehabcom-glitch.github.io/ehab-dental-clinic/doctor.html</loc>
+  </url>
 
-<url>
-<loc>https://lordehabcom-glitch.github.io/clinic-website-v2/contact.html</loc>
-</url>
+  <url>
+    <loc>https://lordehabcom-glitch.github.io/ehab-dental-clinic/contact.html</loc>
+  </url>
 
-<url>
-<loc>https://lordehabcom-glitch.github.io/clinic-website-v2/booking.html</loc>
-</url>
+  <url>
+    <loc>https://lordehabcom-glitch.github.io/ehab-dental-clinic/booking.html</loc>
+  </url>
+
+  <url>
+    <loc>https://lordehabcom-glitch.github.io/ehab-dental-clinic/kafr-saad.html</loc>
+  </url>
+
+  <url>
+    <loc>https://lordehabcom-glitch.github.io/ehab-dental-clinic/new-damietta.html</loc>
+  </url>
 
 </urlset>

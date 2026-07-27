@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://lordehabcom-glitch.github.io/clinic-website-v2/sitemap.xml
+Sitemap: https://lordehabcom-glitch.github.io/ehab-dental-clinic/sitemap.xml
