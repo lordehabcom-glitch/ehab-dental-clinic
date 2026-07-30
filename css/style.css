@@ -1427,8 +1427,16 @@ object-fit:cover;
 }
 
 
-.doctor-list {
-    padding-right: 20px;
+.doctor-list{
+    padding-right:20px;
+    max-height:260px;
+    overflow:hidden;
+    transition:max-height .5s ease;
+    line-height:2;
+}
+
+.doctor-list.show{
+    max-height:5000px;
 }
 
 
@@ -1438,4 +1446,34 @@ object-fit:cover;
     grid-template-columns: 1fr;
 }
 
+}
+/* قراءة المزيد */
+
+.doctor-list{
+    max-height: 320px;
+    overflow: hidden;
+    transition: max-height .5s ease;
+}
+
+.doctor-list.show{
+    max-height: 5000px;
+}
+
+.read-more-btn{
+    display:block;
+    margin:20px auto 0;
+    padding:12px 28px;
+    background:#0077b6;
+    color:#fff;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.read-more-btn:hover{
+    background:#023e8a;
+    transform:scale(1.05);
 }

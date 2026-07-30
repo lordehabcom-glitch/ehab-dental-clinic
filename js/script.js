@@ -3,6 +3,7 @@ function changeLanguage(lang) {
 
     localStorage.setItem("language", lang);
 
+    
     document.documentElement.lang = lang;
 
     document.documentElement.dir = (lang === "ar") ? "rtl" : "ltr";
@@ -443,4 +444,18 @@ if (service) {
             otherServiceBox.style.display = "none";
         }
     });
+}
+
+function toggleReadMore(button) {
+
+    const list = button.previousElementSibling;
+
+    list.classList.toggle("show");
+
+    if (list.classList.contains("show")) {
+        button.textContent = "قراءة أقل";
+    } else {
+        button.textContent = "قراءة المزيد";
+    }
+
 }
